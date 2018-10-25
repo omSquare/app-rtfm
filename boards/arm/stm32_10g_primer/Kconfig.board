@@ -1,0 +1,11 @@
+# Kconfig - STM32 MINI A15 board configuration
+#
+# Copyright (c) 2016 Open-RnD Sp. z o.o.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config BOARD_STM32_10G_PRIMER
+	bool "STM32 10G PRIMER Development Board"
+	depends on SOC_STM32F103XE
+	select USB_DC_STM32_DISCONN_ENABLE if USB

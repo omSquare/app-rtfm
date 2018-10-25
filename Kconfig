@@ -1,0 +1,4 @@
+mainmenu "rtfm: Radio Test Field Measurement"
+
+# Your application configuration options go here
+source "$(ZENOS_BASE)/Kconfig"
